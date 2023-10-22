@@ -307,7 +307,7 @@ footer {
 
 /* Add more CSS for styling the footer as needed */
 body {
-    background-image: url('Images/ABS.jpg');
+    background-image: url('Images/white-wooden-.jpg');
     /* Replace 'background-image.jpg' with the path to your image */
     background-size: cover;
     background-repeat: no-repeat;
@@ -441,8 +441,10 @@ header {
 
 /* Styling for the services section */
 #services {
-    background-color: #DAC89A;
-    /* Set a background color for the section */
+    background-image: url('Images/wood-2142308_1280.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Cover the entire section with the background image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
     padding: 40px 0;
     text-align: center;
 }
@@ -451,28 +453,26 @@ header {
     display: inline-block;
     margin: 0 20px;
     max-width: 300px;
+    background-color: rgba(); /* Add a background color with transparency */
+    padding: 20px; /* Add padding to make the text readable */
 }
 
 .service i {
     font-size: 36px;
-    color: #8A2819;
-    /* Color for the icon */
+    color: #333; /* Color for the icon */
 }
 
 .service h3 {
     font-size: 20px;
     margin: 10px 0;
-    color: #658230;
-    /* Color for the title */
+    color: #333; /* Color for the title */
 }
 
 .service p {
     font-size: 16px;
-    color: #F9FAF9;
-    /* Color for the text */
+    color: #777; /* Color for the text */
 }
 
-/* Additional styles as needed */
 
 /* Center the header content on smaller screens */
 @media screen and (max-width: 768px) {
