@@ -1,0 +1,524 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container to box the website */
+.container {
+    width: 80%;
+    /* Adjust this value for your desired width */
+    margin: 0 auto;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    /* Add a background color */
+}
+
+header {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container #hero {
+    background-image: url('Images/Hero.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 12rem 0;
+    color: #fff;
+}
+
+.container .cta-button {
+    background-color: #E2583E;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.container section {
+    padding: 0;
+    text-align: center;
+}
+
+.container .about-image img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Add styling for the side-by-side About Us section */
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+    /* Add a background color */
+}
+
+.about-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-text {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* You can adjust padding and sizing as needed */
+
+
+/* Style the menu section */
+#menu {
+    background-color: #F1EFEF;
+    /* Add a background color */
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.menu-item {
+    margin: 2rem 0;
+}
+
+.menu-item-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-item ul {
+    list-style: none;
+    padding: 1;
+}
+
+.menu-item li {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item-name {
+    flex: 2;
+    text-align: left;
+    font-weight: bold;
+}
+
+.menu-item-description {
+    flex: 5;
+    text-align: left;
+}
+
+.menu-item-price {
+    flex: 1;
+    text-align: left;
+}
+
+/* Style the gallery section to match Meimei Dumplings website */
+
+#gallery {
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#gallery h2 {
+    font-family: 'Nunito', sans-serif;
+    /* Use the desired font family */
+    font-size: 30px;
+    color: #39393A;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gallery-text {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    /* Use the desired font family */
+    font-size: 20px;
+}
+
+/* Add more CSS to further match the Meimei Dumplings style */
+
+
+
+/* Add more CSS for styling the photo gallery as needed */
+
+/* Style the Contact section */
+#contact {
+    background-color: #F1EFEF;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 24px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.address,
+.hours {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h3 {
+    font-size: 20px;
+}
+
+.contact-form form {
+    text-align: left;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.contact-form button {
+    background-color: #658230;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Your existing CSS */
+
+/* Footer styles with white text color */
+footer {
+    background-color: #333;
+    /* Set a background color for the footer */
+    padding: 20px 0;
+}
+
+.social-media a {
+    color: #fff;
+    /* Set the text color to white for social media links */
+    text-decoration: none;
+    margin: 0 10px;
+    /* Add spacing between social media icons */
+}
+
+.social-media a:hover {
+    color: #007bff;
+    /* Change color on hover (e.g., blue) */
+}
+
+
+/* Add more CSS for styling the footer as needed */
+body {
+    background-image: url('Images/ABS.jpg');
+    /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #333;
+    /* Adjust text color for contrast with the background */
+    font-family: Arial, sans-serif;
+    /* Adjust font if needed */
+}
+
+/* Footer Section Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #FF6F61;
+    /* Change color on hover */
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+/* Responsive CSS for smaller screens */
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        /* Hide the menu on smaller screens */
+    }
+
+    .menu-toggle {
+        display: block;
+        /* Show the menu toggle button */
+    }
+
+    /* Additional responsive styles as needed */
+}
+
+/* Your existing CSS */
+
+/* Responsive CSS for smaller screens */
+@media screen and (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+        /* Add padding for better spacing on smaller screens */
+    }
+
+    .contact-form h3 {
+        font-size: 20px;
+        /* Reduce font size for the form title */
+    }
+
+    .contact-form label {
+        font-size: 16px;
+        /* Reduce font size for labels */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        /* Make the input fields and textarea full-width */
+        margin-bottom: 10px;
+        /* Add spacing between input fields */
+    }
+
+    .contact-form button {
+        width: 100%;
+        /* Make the button full-width */
+    }
+}
+
+
+/* Your existing CSS */
+
+/* Center the header content */
+header {
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+    background-color: #F9FAF9;
+    /* Set a background color for the header */
+    padding: 20px 0;
+}
+
+/* Style the logo */
+.logo {
+    margin-right: auto;
+    /* Push the logo to the left */
+}
+
+/* Style the navigation menu */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 20px;
+    /* Add spacing between menu items */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Styling for the services section */
+#services {
+    background-color: #DAC89A;
+    /* Set a background color for the section */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    margin: 0 20px;
+    max-width: 300px;
+}
+
+.service i {
+    font-size: 36px;
+    color: #8A2819;
+    /* Color for the icon */
+}
+
+.service h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #658230;
+    /* Color for the title */
+}
+
+.service p {
+    font-size: 16px;
+    color: #F9FAF9;
+    /* Color for the text */
+}
+
+/* Additional styles as needed */
+
+/* Center the header content on smaller screens */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        /* Stack logo and menu on small screens */
+        text-align: center;
+        /* Center text within header */
+    }
+
+    .menu {
+        margin-top: 10px;
+        /* Add spacing between logo and menu on small screens */
+    }
+}
+
+/* Your existing CSS */
+
+/* Responsive CSS for smaller screens */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 10px;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        text-align: center;
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    /* Additional responsive styles as needed */
+}
